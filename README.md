@@ -1,7 +1,8 @@
-# Anitas Kitchen
+# Dairy Business
 ## Author
 Gilbert Kiprotich Mutai
 ## Description
+This a website that that is used to monitor milk production and sales of a dairy business.
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
@@ -9,12 +10,13 @@ You can install it with the following command in your terminal
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
-1. Use this command to clone `$ git clone https://github.com/FITSTARGILLY2643/Anitas-Kitchen
+1. Use this command to clone `$ git clone https://github.com/FITSTARGILLY2643/Dairy-Business
 1. This will clone the repositoty into your local folder
 1. __Enjoy :)__
 ### Technologies Used
 1. HTML
 1. CSS
+1. Javascript
 1. Git
 ### Live Site
 View [live](https://fitstargilly2643.github.io/Anitas-Kitchen/)
