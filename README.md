@@ -2,7 +2,7 @@
 ## Author
 Gilbert Kiprotich Mutai
 ## Description
-This a website that is used to monitor milk production and sales of a dairy business.
+This is a website that is used to monitor milk production and sales of a dairy business.
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
