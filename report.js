@@ -35,3 +35,16 @@ function TotalProducton() {
     return sum;
 }
 TotalProducton()
+
+incomePerDay = TotalProducton() * 45;
+incomePerWeek = incomePerDay * 7;
+incomePerYear = incomePerDay * 366;
+document.write("Your daily income will be Ksh " + incomePerDay);
+document.write("Your weekly income will be Ksh " + incomePerWeek);
+document.write("Your yearly income will be Ksh " + incomePerYear);
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+var daymonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+for (i = 0; i < months.length; i++) {
+    sum = daymonth[i] * incomePerDay;
+    document.write('Your income for ' + months[i] + ' is  Ksh' + sum)
+}
