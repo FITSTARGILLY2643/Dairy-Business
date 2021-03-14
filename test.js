@@ -20,6 +20,24 @@ var sheds = [{
     }
 ];
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function totalProductionPerShed() {
     for (var i = 0; i < sheds.length; i++) {
         var perShed;

@@ -27,7 +27,4 @@ function production() {
 
 
 }
-
-
-
 production();
