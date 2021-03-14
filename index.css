@@ -1,56 +1,81 @@
- html {
-     width: 80%;
-     text-align: center;
-     margin: auto;
-     border: 1px solid palevioletred;
- }
- 
- h1 {
-     background-color: #88BDBC;
-     border: 1px solid palevioletred;
-     padding: 10px;
-     text-align: center;
- }
- 
- ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     background-color: #88BDBC;
- }
- 
- li {
-     float: left;
- }
- 
- li a {
-     display: block;
-     color: white;
-     text-align: center;
-     padding: 16px 50px;
-     text-decoration: none;
- }
- 
- a {
-     text-decoration: none;
- }
- 
- ul li a:hover {
-     background-color: black;
- }
- 
- .animated-area {
-     background-image: url(/images/cows.jpeg) url(/images/dairy.jpeg), url(/images/milk.jpeg), url(/images/eating.jpeg);
-     ;
-     background-position: 20px -90px, 30px 80px, 0px 0px;
-     background-repeat: no-repeat, no-repeat, repeat-x;
- }
- 
- .background-image {
-     margin: 5px;
- }
- 
- footer {
-     color: blue;
- }
+     html {
+         width: 80%;
+         text-align: center;
+         margin: auto;
+         border: 1px solid palevioletred;
+     }
+     
+     h1 {
+         background-color: #88BDBC;
+         border: 1px solid palevioletred;
+         padding: 10px;
+         text-align: center;
+     }
+     
+     ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: #88BDBC;
+     }
+     
+     li {
+         float: left;
+     }
+     
+     li a {
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 16px 50px;
+         text-decoration: none;
+     }
+     
+     a {
+         text-decoration: none;
+     }
+     
+     ul li a:hover {
+         background-color: black;
+     }
+     
+     .animated-area {
+         background-image: url(/images/cows.jpeg) url(/images/dairy.jpeg), url(/images/milk.jpeg), url(/images/eating.jpeg);
+         ;
+         background-position: 20px -90px, 30px 80px, 0px 0px;
+         background-repeat: no-repeat, no-repeat, repeat-x;
+     }
+     
+     .background-image {
+         margin: 5px;
+     }
+     
+     footer {
+         color: blue;
+     }
+     
+     input[type=text] {
+         width: 20%;
+         background-color: transparent;
+         color: black;
+         padding: 7px 10px;
+         margin: 8px 0;
+         border: 1px solid palevioletred;
+         cursor: pointer;
+     }
+     
+     input[type=submit] {
+         width: 20%;
+         background-color: #88BDBC;
+         color: white;
+         padding: 14px 20px;
+         margin: 8px 0;
+         border: none;
+         border-radius: 4px;
+         cursor: pointer;
+     }
+     
+     .submit {
+         margin-right: 10px;
+     }

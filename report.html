@@ -9,6 +9,7 @@
         <Dairy-Business></Dairy-Business>
     </title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="report.js"></script>
 </head>
 
 <body>
@@ -16,16 +17,26 @@
     <nav class="navbar">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li> <a href="report.html">Reports</a></li>
+            <li> <a href="report.html">Products</a></li>
 
         </ul>
 
     </nav>
-    <footer>
-        <p>
-            <b>Contact us through</b> Tel:+254-725-060-098 Email: dairybusiness@gmail.com Facebook: Universal Dairy Business</p>
-    </footer>
+
+    <body style="text-align: left;">
+
+        <form> Shed A<br><input type="text" name="array[]" value="" id="one" placeholder=" Production in Shed A " /><br> Shed B
+            <br><input type="text " name="array[] " value=" " id="two" placeholder=" Production in Shed B " /><br> Shed C<br>
+            <input type="text " name="array[] " value=" " id="three" placeholder=" Production in Shed C " /><br> Shed D
+            <br> <input type="text " name="array[] " value=" " id="four" placeholder=" Production in Shed D " />
+            <button type="button " name="button " onclick="show() "> Submit
+                </button>
+
+        </form>
+        <br>
+        <p id="par "></p>
 
 
+    </body>
 
-</body>
+</html>
