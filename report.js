@@ -19,4 +19,10 @@ function production() {
     var shedB = (document.getElementById("two").value);
     var shedC = (document.getElementById("three").value);
     var shedD = (document.getElementById("four").value);
+
+
 }
+
+
+
+production();
