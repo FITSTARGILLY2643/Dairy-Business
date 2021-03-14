@@ -34,3 +34,4 @@ function TotalProducton() {
     document.write("Your total production is " + " " + sum + " litres per day.");
     return sum;
 }
+TotalProducton()
