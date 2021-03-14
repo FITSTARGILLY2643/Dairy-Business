@@ -28,3 +28,9 @@ function production() {
 
 }
 production();
+
+function TotalProducton() {
+    sum = shedA + shedB + shedC + shedD;
+    document.write("Your total production is " + " " + sum + " litres per day.");
+    return sum;
+}
