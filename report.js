@@ -20,6 +20,11 @@ function production() {
     var shedC = (document.getElementById("three").value);
     var shedD = (document.getElementById("four").value);
 
+    getElementById("one").innerHTML = shedA
+    getElementById("two").innerHTML = shedB
+    getElementById("three").innerHTML = shedC
+    getElementById("four").innerHTML = shedD
+
 
 }
 
