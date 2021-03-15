@@ -1,4 +1,4 @@
-# Dairy Business
+# Milk Dairy Business
 ## Author
 Gilbert Kiprotich Mutai
 ## Description
@@ -19,7 +19,7 @@ To access this project on your local files, you can clone it using these steps
 1. Javascript
 1. Git
 ### Live Site
-View [live](https://fitstargilly2643.github.io/Anitas-Kitchen/)
+View [live](https://fitstargilly2643.github.io/Dairy-Business/)
 ### Licence
 This project is under the  [MIT](LICENSE) licence
 License format:
